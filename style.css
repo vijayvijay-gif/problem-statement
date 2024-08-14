@@ -1,0 +1,44 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+/* Header Styles */
+header {
+    background-color: #808080;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+}
